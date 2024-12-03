@@ -139,6 +139,7 @@ const About = () => {
         </div>
 
         {/* Activities Section */}
+
         <div className="content-section mt-16">
           <h2 className="text-4xl font-semibold text-gray-900">
             Our Activities
@@ -165,8 +166,11 @@ const About = () => {
               );
 
               return (
-                <div
+                <motion.div
                   key={index}
+                  initial={{ opacity: 0, y: 50 }} // Animation: starts hidden and moves up
+                  animate={{ opacity: 1, y: 0 }} // Animation: becomes visible and moves to position
+                  transition={{ duration: 0.5 }} // Animation duration
                   className={`flex ${
                     index % 2 === 0 ? "flex-row" : "flex-row-reverse"
                   } items-center gap-6 bg-gray-50 shadow-lg rounded-lg p-6`}
@@ -186,68 +190,92 @@ const About = () => {
                     <h3 className="text-xl font-semibold text-gray-900">
                       {video.snippet.title}
                     </h3>
-                    <p
-                      className="text-gray-500 mt-2"
-                      dangerouslySetInnerHTML={{
-                        __html: expandedStates[index]
-                          ? description.replace(
-                              /(https?:\/\/[^\s]+)/g,
-                              `<a href="$1" target="_blank" rel="noopener noreferrer" class="text-[#a0b59f] underline">$1</a>`
-                            )
-                          : formattedLinks,
-                      }}
-                    ></p>
-                    {words.length > wordsLimit && (
-                      <Button
-                        onClick={() => toggleExpand(index)}
-                        variant="contained"
-                        sx={{
-                          mt: 4,
-                          backgroundColor: "#8a9c7a", // تدرج اللون عند التمرير فوق الزر
-                          color: "white",
-                          "&:hover": {
-                            backgroundColor: "#a0b59f", // اللون المطلوب
-                          },
-                          fontSize: "16px",
-                          padding: "10px 20px",
-                          borderRadius: "8px",
-                          boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 50 }} // حركة الظهور عند التحميل
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.5 }}
+                    >
+                      <div
+                        className={`text-gray-500 mt-2 overflow-hidden transition-all duration-[3s]`}
+                        style={{
+                          maxHeight: expandedStates[index] ? "1000px" : "100px", // يتحكم في ارتفاع النص
+                          transitionTimingFunction:
+                            "cubic-bezier(0.4, 0, 0.2, 1)", // انتقال سلس
                         }}
                       >
-                        {expandedStates[index] ? (
-                          <span>
-                            Show less <i className="ml-1">&#9650;</i>
-                          </span>
-                        ) : (
-                          <span>
-                            Show more <i className="ml-1">&#9660;</i>
-                          </span>
-                        )}
-                      </Button>
+                        <p
+                          dangerouslySetInnerHTML={{
+                            __html: expandedStates[index]
+                              ? description.replace(
+                                  /(https?:\/\/[^\s]+)/g,
+                                  `<a href="$1" target="_blank" rel="noopener noreferrer" class="text-[#a0b59f] underline">$1</a>`
+                                )
+                              : formattedLinks,
+                          }}
+                        ></p>
+                      </div>
+                    </motion.div>
+                    {words.length > wordsLimit && (
+                      <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5 }}
+                      >
+                        <Button
+                          onClick={() => toggleExpand(index)}
+                          variant="contained"
+                          sx={{
+                            mt: 4,
+                            backgroundColor: "#8a9c7a",
+                            color: "white",
+                            "&:hover": { backgroundColor: "#a0b59f" },
+                            fontSize: "16px",
+                            padding: "10px 20px",
+                            borderRadius: "8px",
+                            boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                            transition: "all 0.3s ease-in-out",
+                          }}
+                        >
+                          {expandedStates[index] ? (
+                            <span>
+                              Show less <i className="ml-1">&#9650;</i>
+                            </span>
+                          ) : (
+                            <span>
+                              Show more <i className="ml-1">&#9660;</i>
+                            </span>
+                          )}
+                        </Button>
+                      </motion.div>
                     )}
                   </div>
-                </div>
+                </motion.div>
               );
             })}
             {videos.length > showCount && (
-              <Button
-                onClick={handleShowMore}
-                variant="contained"
-                sx={{
-                  mt: 4,
-                  backgroundColor: "#8a9c7a", // تدرج اللون عند التمرير فوق الزر
-                  color: "white",
-                  "&:hover": {
-                    backgroundColor: "#a0b59f", // اللون المطلوب
-                  },
-                  fontSize: "16px",
-                  padding: "10px 20px",
-                  borderRadius: "8px",
-                  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
-                }}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5 }}
               >
-                Show More
-              </Button>
+                <Button
+                  onClick={handleShowMore}
+                  variant="contained"
+                  sx={{
+                    mt: 4,
+                    backgroundColor: "#8a9c7a",
+                    color: "white",
+                    "&:hover": { backgroundColor: "#a0b59f" },
+                    fontSize: "16px",
+                    padding: "10px 20px",
+                    borderRadius: "8px",
+                    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                  }}
+                >
+                  Show More
+                </Button>
+              </motion.div>
             )}
           </div>
         </div>

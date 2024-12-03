@@ -68,7 +68,7 @@ const Contact = () => {
         to: data.email,
         name: data.name,
         subject: "Bezrah",
-        body: compileWelcomeTemplate(data.name, "https://bezrah2.vercel.app/"),
+        body: compileWelcomeTemplate(data.name, "https://bezrah.org/"),
       });
 
       toast.success("Thank you message sent to the user!");
