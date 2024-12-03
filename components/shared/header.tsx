@@ -44,6 +44,14 @@ const Header = () => {
           </li>
           <li>
             <Link
+              href="/our-team"
+              className="text-white hover:text-gray-400 transition-all"
+            >
+              Our Team
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/services"
               className="text-white hover:text-gray-400 transition-all"
             >

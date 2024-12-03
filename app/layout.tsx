@@ -6,8 +6,32 @@ import Footer from "@/components/shared/footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 export const metadata = {
-  title: "Bezra",
-  description: "Sustainable and eco-friendly roofing solutions and Planting",
+  title: "Bezrah | Eco-Friendly Roofing & Planting Solutions",
+  description:
+    "Discover sustainable, eco-friendly roofing solutions and innovative planting techniques with Bezrah. Elevate your spaces with green, energy-efficient designs.",
+  keywords: [
+    "eco-friendly roofing",
+    "sustainable roofing solutions",
+    "green roofs",
+    "energy-efficient designs",
+    "planting techniques",
+  ],
+  author: "Bezrah Team",
+  openGraph: {
+    title: "Bezrah | Sustainable Roofing & Planting",
+    description:
+      "Bezrah offers innovative, sustainable, and eco-friendly roofing and planting solutions to transform your spaces.",
+    url: "https://www.bezrah.org",
+    images: [
+      {
+        url: "https://bezrah-psi.vercel.app/images/LOGO_PNG_SECOND.png",
+        width: 1200,
+        height: 630,
+        alt: "Bezrah - Sustainable Roofing Solutions",
+      },
+    ],
+    siteName: "Bezrah",
+  },
 };
 
 export default function RootLayout({
