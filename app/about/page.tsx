@@ -15,6 +15,7 @@ type Video = {
     };
   };
 };
+
 const About = () => {
   const [videos, setVideos] = useState<Video[]>([]);
   const [showCount, setShowCount] = useState(4); // بدءاً بعرض 4 فيديوهات فقط
