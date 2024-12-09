@@ -48,6 +48,10 @@ export default function RootLayout({
         {/* <link rel="apple-touch-icon" href="/images/logo.jpeg" /> */}
         {/* Optional: Add a manifest file for Progressive Web App */}
         {/* <link rel="manifest" href="/manifest.json" /> */}
+        <meta
+          name="google-site-verification"
+          content="google62bbac5407f85471"
+        />
       </head>
       <body>
         {/* Add the Header here */}
