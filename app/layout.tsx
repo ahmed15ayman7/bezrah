@@ -24,7 +24,7 @@ export const metadata = {
     url: "https://www.bezrah.org",
     images: [
       {
-        url: "https://bezrah-psi.vercel.app/images/LOGO_PNG_SECOND.png",
+        url: "https://www.bezrah.org/images/LOGO_PNG_SECOND.png",
         width: 1200,
         height: 630,
         alt: "Bezrah - Sustainable Roofing Solutions",
