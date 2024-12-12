@@ -5,14 +5,11 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="relative h-56 flex items-center justify-center text-center">
-      <Image
+      <img
         src="/images/COVER.jpg"
         alt="Cover Image"
-        // fill
-        width={1300}
         height={100}
-        className="object-cover hero-image opacity-80 absolute"
-        priority
+        className="object-cover hero-image opacity-80 absolute w-full"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#38413190] to-[#384131] background-gradient"></div>
       <div className="relative z-10 hero-content max-w-3xl px-4 md:px-8">
