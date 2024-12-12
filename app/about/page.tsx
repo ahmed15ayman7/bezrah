@@ -266,7 +266,7 @@ const About = () => {
         {/* Projects Section */}
         <div className="content-section mt-16">
           <h2 className="text-4xl font-semibold text-gray-900">Our Projects</h2>
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="mt-8 grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
             {projectsData.map((project, index) => (
               <div
                 key={index}
