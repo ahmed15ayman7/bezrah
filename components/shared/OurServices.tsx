@@ -13,7 +13,9 @@ const OurServices = () => {
             <Icon className="text-[#a0b59f] text-4xl mb-4 transition-transform transform hover:scale-125 hover:rotate-12" />
             <h3 className="text-2xl font-semibold">{title}</h3>
             {text.map((tx) => (
-              <p className="mt-4 text-gray-500">{tx}</p>
+              <p key={tx} className="mt-4 text-gray-500">
+                {tx}
+              </p>
             ))}
           </div>
         ))}
