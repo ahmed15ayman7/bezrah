@@ -177,45 +177,15 @@ export const teamData = [
 export const projectsData = [
   {
     id: 1,
-    title: "Eco-Friendly Roof Design",
-    description:
-      "A project focused on creating energy-efficient, eco-friendly roofs for urban areas.",
+    title: "CASE STUDIES ANALYSIS",
+    description: "",
     image: "/images/g1.jpg", // استبدل بمسار الصورة الفعلي
   },
   {
     id: 2,
-    title: "Green Spaces Initiative",
-    description:
-      "Transforming unused rooftops into green spaces to promote biodiversity.",
+    title: "RESEARCH AND DEVELOPMENT",
+    description: "",
     image: "/images/g2.jpg", // استبدل بمسار الصورة الفعلي
-  },
-  {
-    id: 3,
-    title: "Urban Cooling Solutions",
-    description:
-      "Innovative solutions to combat urban heat islands using green roofing techniques.",
-    image: "/images/g3.jpg", // استبدل بمسار الصورة الفعلي
-  },
-  {
-    id: 4,
-    title: "Sustainable Architecture",
-    description:
-      "Collaborating with architects to integrate sustainable roofs in building designs.",
-    image: "/images/g4.jpg", // استبدل بمسار الصورة الفعلي
-  },
-  {
-    id: 5,
-    title: "Community Garden Program",
-    description:
-      "Creating rooftop gardens for local communities to grow fresh produce.",
-    image: "/images/g5.jpg", // استبدل بمسار الصورة الفعلي
-  },
-  {
-    id: 6,
-    title: "Community Garden Program",
-    description:
-      "Creating rooftop gardens for local communities to grow fresh produce.",
-    image: "/images/g6.webp", // استبدل بمسار الصورة الفعلي
   },
 ];
 
@@ -238,4 +208,13 @@ export const dataAbout = [
       "We have successfully implemented a variety of green roof projects that contribute to a sustainable future.",
     image: "/images/g6.webp",
   },
+];
+
+export const navItems = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Our Team", href: "/our-team" },
+  { label: "Services", href: "/services" },
+  { label: "Researchs", href: "/researchs" },
+  { label: "Contact", href: "/contact" },
 ];
