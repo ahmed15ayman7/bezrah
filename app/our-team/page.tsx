@@ -32,7 +32,14 @@ const page = () => {
                   </h4>
                   <div className="p-1  flex flex-col gap-1">
                     <p className="text-gray-700">{member.position}</p>
-                    <Tooltip title="Connect with me" arrow>
+                    <Tooltip
+                      title={
+                        index === 1
+                          ? "Mohamed Alhoussiny is a senior architecture student and sustainability advocate, passionate about empowering youth and addressing environmental challenges in Egypt. As the founder of the BEZRAH project, Mohamed is dedicated to promoting green solutions through education, rooftop farming, and sustainable building practices. He has participated in the SUSI Economic Empowerment program, gaining international exposure to entrepreneurship, public policy, and leadership. With a strong background in youth leadership, Mohamed actively seeks to create opportunities for young people, particularly in rural areas, by increasing their environmental awareness and fostering green job prospects. His goal is to make a lasting impact on Egypt's youth and the environment through innovative, community-driven initiatives."
+                          : "Connect with me"
+                      }
+                      arrow
+                    >
                       <IconUserCircle className="mt-4 text-[#a0b59f] text-3xl mx-auto cursor-pointer" />
                     </Tooltip>
                   </div>
