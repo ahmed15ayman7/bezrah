@@ -53,6 +53,7 @@ export default function RootLayout({
           content="google62bbac5407f85471"
         />
       </head>
+
       <body>
         {/* Add the Header here */}
         <Header />
