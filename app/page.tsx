@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import Hero from "@/components/shared/Hero";
 import OurServices from "@/components/shared/OurServices";
+import { services, values } from "@/constants";
 
 const HomePage = () => {
   // GSAP Animations for all sections
@@ -46,7 +47,11 @@ const HomePage = () => {
           <p className="text-lg md:text-xl text-gray-500">
             Innovative and sustainable roofing solutions tailored to your needs.
           </p>
-          <OurServices />
+          <OurServices services={values} />
+          <h2 className="text-4xl font-extrabold text-gray-800 mt-10">
+            Our Services
+          </h2>
+          <OurServices services={services} />
         </div>
       </section>
 

@@ -1,5 +1,6 @@
 // app/services/page.tsx
 import OurServices from "@/components/shared/OurServices";
+import { services } from "@/constants";
 
 const Services = () => {
   return (
@@ -12,7 +13,7 @@ const Services = () => {
         </p>
 
         {/* Services Grid */}
-        <OurServices />
+        <OurServices services={services} />
       </div>
     </main>
   );

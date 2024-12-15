@@ -2,10 +2,53 @@ import {
   FaLeaf,
   FaTools,
   FaDraftingCompass,
-  FaWater,
-  FaSolarPanel,
-  FaTree,
+  FaLightbulb,
+  FaUsers,
+  FaHandsHelping,
+  FaGlobe,
+  FaHome,
 } from "react-icons/fa";
+
+export const values = [
+  {
+    Icon: FaLeaf,
+    title: "Sustainability",
+    text: [
+      "• Commitment to promoting environmentally friendly practices that support long-term ecological balance.",
+    ],
+  },
+  {
+    Icon: FaLightbulb,
+    title: "Innovation",
+    text: [
+      "• Developing creative, cost-effective solutions tailored to the Egyptian context.",
+    ],
+  },
+  {
+    Icon: FaUsers,
+    title: "Community Empowerment",
+    text: [
+      "• Engaging and educating communities to take an active role in improving their environments.",
+    ],
+  },
+  {
+    Icon: FaHandsHelping,
+    title: "Collaboration",
+    text: [
+      "• Leveraging diverse expertise and teamwork to achieve impactful results.",
+    ],
+  },
+  {
+    Icon: FaGlobe,
+    title: "Alignment with Global Goals",
+    text: ["• Supporting the SDGs and Egypt Vision 2030 in all initiatives."],
+  },
+  {
+    Icon: FaHome,
+    title: "Quality of Life",
+    text: ["• Enhancing comfort, health, and aesthetics in residential areas."],
+  },
+];
 
 export const services = [
   {

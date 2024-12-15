@@ -7,7 +7,7 @@ const PdfPage = () => {
 
   return (
     <div className="bg-white pt-20">
-      <PdfViewer fileUrl={fileUrl} />
+      <PdfViewer fileUrl={fileUrl} ist />
 
       <PdfViewer fileUrl={fileUrl2} />
     </div>
