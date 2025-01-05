@@ -132,7 +132,7 @@ const Contact = () => {
               value={formData.name}
               onChange={handleChange}
               placeholder="Your Full Name"
-              className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#a0b59f]"
+              className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4ebc78]"
             />
             {formErrors.name && (
               <p className="text-red-500 text-sm mt-2">{formErrors.name}</p>
@@ -168,7 +168,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#a0b59f] text-white py-3 rounded-lg hover:bg-[#4ebc78] transition-all"
+            className="w-full bg-[#4ebc78] text-white py-3 rounded-lg hover:bg-[#4ebc78] transition-all"
           >
             Send Message
           </button>
@@ -181,7 +181,7 @@ const Contact = () => {
               href="https://docs.google.com/forms/d/1ViFzPb4L957BYdoCm0dHdp0tjYTPS8RoQMMqUN0hvVQ/edit"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#a0b59f] text-white py-2 px-4 rounded-lg hover:bg-[#4ebc78] transition-all"
+              className="bg-[#4ebc78] text-white py-2 px-4 rounded-lg hover:bg-[#4ebc78] transition-all"
             >
               Join as a Volunteer
             </a>
