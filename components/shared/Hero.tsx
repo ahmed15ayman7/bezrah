@@ -17,7 +17,7 @@ const Hero = () => {
         height={100}
         className="object-cover hero-image hidden max-sm:block opacity-80 absolute w-full"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#38413190] to-[#384131] background-gradient"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#013820] to-[#4ebc78] background-gradient"></div>
       <div className="relative z-10 hero-content max-w-3xl px-4 md:px-8">
         {/* <h1 className="text-5xl md:text-6xl font-extrabold drop-shadow-xl tracking-tight leading-tight"> 
       Sustainable Roofing Solutions
