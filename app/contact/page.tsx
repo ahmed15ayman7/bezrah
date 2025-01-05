@@ -168,7 +168,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#4ebc78] text-white py-3 rounded-lg hover:bg-[#4ebc78] transition-all"
+            className="w-full bg-[#4ebc78] text-white py-3 rounded-lg hover:bg-[#013820] transition-all"
           >
             Send Message
           </button>
@@ -181,7 +181,7 @@ const Contact = () => {
               href="https://docs.google.com/forms/d/1ViFzPb4L957BYdoCm0dHdp0tjYTPS8RoQMMqUN0hvVQ/edit"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#4ebc78] text-white py-2 px-4 rounded-lg hover:bg-[#4ebc78] transition-all"
+              className="bg-[#4ebc78] text-white py-2 px-4 rounded-lg hover:bg-[#013820] transition-all"
             >
               Join as a Volunteer
             </a>
@@ -189,7 +189,7 @@ const Contact = () => {
               href="https://docs.google.com/forms/d/186kKYW2FaQYMWo-pm_i4OkTg1Mi1QOyvRtfH3cQDKek/edit"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#4ebc78] text-white py-2 px-4 rounded-lg hover:bg-[#4ebc78] transition-all"
+              className="bg-[#4ebc78] text-white py-2 px-4 rounded-lg hover:bg-[#013820] transition-all"
             >
               Join as a Partner
             </a>
@@ -250,7 +250,7 @@ const Contact = () => {
                     <Link
                       href="mailto:info@bezrah.org"
                       underline="hover"
-                      sx={{ color: "#4ebc78", "&:hover": { color: "#4ebc78" } }}
+                      sx={{ color: "#4ebc78", "&:hover": { color: "#013820" } }}
                     >
                       info@bezrah.org
                     </Link>
