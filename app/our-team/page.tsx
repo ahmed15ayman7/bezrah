@@ -17,7 +17,7 @@ const page = () => {
     //             key={index}
     //             className={`${
     //               index === 1
-    //                 ? " -translate-y-10 border-2 border-[#778976]"
+    //                 ? " -translate-y-10 border-2 border-[#013820]"
     //                 : "hover:-translate-y-10 hover:border-2 max-sm:order-first hover:border-[#778976]"
     //             }  bg-gray-50 shadow-lg rounded-lg flex p-1  text-center hover:shadow-xl transition-all duration-1000`}
     //           >
