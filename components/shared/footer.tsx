@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#384131] via-[#2a3c2f] to-[#4a6a52] text-white py-6">
+    <footer className="bg-gradient-to-r from-[#013820] via-[#4ebc78] to-[#013820] text-white py-6">
       <section className="pt-20 pb-10 text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl text-white font-bold">
