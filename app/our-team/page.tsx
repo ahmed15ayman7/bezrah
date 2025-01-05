@@ -40,7 +40,7 @@ const page = () => {
     //                   }
     //                   arrow
     //                 >
-    //                   <IconUserCircle className="mt-4 text-[#a0b59f] text-3xl mx-auto cursor-pointer" />
+    //                   <IconUserCircle className="mt-4 text-[#013820] text-3xl mx-auto cursor-pointer" />
     //                 </Tooltip>
     //               </div>
     //             </div>
