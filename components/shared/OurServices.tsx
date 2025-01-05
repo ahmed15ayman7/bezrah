@@ -13,7 +13,7 @@ const OurServices = ({
             key={title}
             className=" bg-gradient-to-bl to-[#ffffff27] via-[#ffffff01] from-[#ffffff33] p-8 shadow-lg rounded-lg transition-all hover:shadow-2xl hover:scale-105 backdrop-blur-lg transform hover:rotate-2"
           >
-            <Icon className="text-[#a0b59f] text-4xl mb-4 transition-transform transform hover:scale-125 hover:rotate-12" />
+            <Icon className="text-[#013820] text-4xl mb-4 transition-transform transform hover:scale-125 hover:rotate-12" />
             <h3 className="text-2xl font-semibold">{title}</h3>
             {text.map((tx) => (
               <p key={tx} className="mt-4 text-gray-500">
