@@ -19,7 +19,7 @@ const page = () => {
     //             className={`${
     //               index === 1
     //                 ? " -translate-y-10 border-2 border-[#013820]"
-    //                 : "hover:-translate-y-10 hover:border-2 max-sm:order-first hover:border-[#778976]"
+    //                 : "hover:-translate-y-10 hover:border-2 max-sm:order-first hover:border-[#013820]"
     //             }  bg-gray-50 shadow-lg rounded-lg flex p-1  text-center hover:shadow-xl transition-all duration-1000`}
     //           >
     //             <img
@@ -73,7 +73,7 @@ const page = () => {
                 </p>
                 <a
                   href={`mailto:${founder.contact}`}
-                  className="text-[#a0b59f] hover:text-[#8b9c7d]"
+                  className="text-[#013820] hover:text-[#013820]"
                 >
                   <strong>Contact:</strong> {founder.contact}
                 </a>
