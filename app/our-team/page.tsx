@@ -18,8 +18,8 @@ const page = () => {
     //             key={index}
     //             className={`${
     //               index === 1
-    //                 ? " -translate-y-10 border-2 border-[#013820]"
-    //                 : "hover:-translate-y-10 hover:border-2 max-sm:order-first hover:border-[#013820]"
+    //                 ? " -translate-y-10 border-2 border-[#4ebc78]"
+    //                 : "hover:-translate-y-10 hover:border-2 max-sm:order-first hover:border-[#4ebc78]"
     //             }  bg-gray-50 shadow-lg rounded-lg flex p-1  text-center hover:shadow-xl transition-all duration-1000`}
     //           >
     //             <img
@@ -41,7 +41,7 @@ const page = () => {
     //                   }
     //                   arrow
     //                 >
-    //                   <IconUserCircle className="mt-4 text-[#013820] text-3xl mx-auto cursor-pointer" />
+    //                   <IconUserCircle className="mt-4 text-[#4ebc78] text-3xl mx-auto cursor-pointer" />
     //                 </Tooltip>
     //               </div>
     //             </div>
@@ -73,7 +73,7 @@ const page = () => {
                 </p>
                 <a
                   href={`mailto:${founder.contact}`}
-                  className="text-[#013820] hover:text-[#013820]"
+                  className="text-[#4ebc78] hover:text-[#013820]"
                 >
                   <strong>Contact:</strong> {founder.contact}
                 </a>
@@ -110,7 +110,7 @@ const page = () => {
                       href={`mailto:${member.contact}`}
                       className="inline-block mt-4"
                     >
-                      <IconUserCircle className="text-[#a0b59f] text-3xl mx-auto cursor-pointer" />
+                      <IconUserCircle className="text-[#4ebc78] text-3xl mx-auto cursor-pointer" />
                     </a>
                   </Tooltip>
                 </div>
