@@ -28,8 +28,8 @@ const HomePage = () => {
     );
 
     // Background Gradient Animation (Dynamic)
-    gsap.to(".background-gradient", {
-      background: "linear-gradient(90deg, #384131, #2a3c2f, #4a6a52)",
+    gsap.to(".background-gradient", 
+      background: "linear-gradient(90deg, #013820, #013820, #013820)",
       duration: 3,
       repeat: -1,
       yoyo: true,
