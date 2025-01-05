@@ -88,7 +88,7 @@ const PdfViewer: React.FC<PdfViewerProps> = ({ fileUrl, ist }) => {
           {/* Download Button */}
           <Button
             variant="contained"
-            className="bg-gradient-to-r from-[#384131] via-[#2a3c2f] to-[#4a6a52] text-white max-sm:text-[10px] flex gap-1 mb-2"
+            className="bg-gradient-to-r from-[#384131] via-[#4ebc78] to-[#4ebc78] text-white max-sm:text-[10px] flex gap-1 mb-2"
             href={fileUrl}
             download
           >
