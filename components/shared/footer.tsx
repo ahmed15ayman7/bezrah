@@ -19,7 +19,7 @@ const Footer = () => {
           </h2>
           <p className="mt-4 text-lg md:text-xl text-gray-300">
             Contact us today and start your journey toward a greener, more
-            sustainable future for your roof.
+            sustainable future.
           </p>
           <Link
             href="/contact"
