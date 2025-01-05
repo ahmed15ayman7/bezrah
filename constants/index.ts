@@ -81,7 +81,7 @@ export const services = [
 ];
 export const founder = {
   name: "Mohamed Alhoussiny Mohamed Sharaf",
-  position: "Founder",
+  position: "Founder&CEO",
   image: "/teem/Mohamed-Alhoussiny-Mohamed-Sharaf.jpeg", // Replace with founder's image path
   bio: `Mohamed Alhoussiny is a senior architecture student and sustainability advocate, passionate about empowering youth and addressing environmental challenges in Egypt. As the founder of the BEZRAH project, Mohamed is dedicated to promoting green solutions through education, rooftop farming, and sustainable building practices. He has participated in the SUSI Economic Empowerment program, gaining international exposure to entrepreneurship, public policy, and leadership. With a strong background in youth leadership, Mohamed actively seeks to create opportunities for young people, particularly in rural areas, by increasing their environmental awareness and fostering green job prospects. His goal is to make a lasting impact on Egypt's youth and the environment through innovative, community-driven initiatives.`,
   contact: "info@bezrah.org", // Replace with the actual email
