@@ -96,7 +96,7 @@ const PdfPage = () => {
                     {/* Download button */}
                     <Button
                       variant="contained"
-                      className="bg-gradient-to-r from-[#384131] via-[#2a3c2f] to-[#4a6a52] text-white max-sm:text-[10px] flex gap-1 "
+                      className="bg-gradient-to-r from-[#4ebc78] via-[#4ebc78] to-[#4ebc78] text-white max-sm:text-[10px] flex gap-1 "
                       href={item.fileUrl}
                       download
                     >
