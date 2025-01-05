@@ -116,7 +116,7 @@ const Contact = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Thank you for BEZRAH Solutions. Whether you have a question, feedback,
+          Thank you for choosing BEZRAH Solutions. Whether you have a question, feedback,
           or just want to get in touch, we're here to help!
         </motion.p>
 
@@ -146,7 +146,7 @@ const Contact = () => {
               value={formData.email}
               onChange={handleChange}
               placeholder="Your Email Address"
-              className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#a0b59f]"
+              className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4ebc78]"
             />
             {formErrors.email && (
               <p className="text-red-500 text-sm mt-2">{formErrors.email}</p>
@@ -159,7 +159,7 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               placeholder="Your Message or Inquiry"
-              className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#a0b59f]"
+              className="w-full p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4ebc78]"
             ></textarea>
             {formErrors.message && (
               <p className="text-red-500 text-sm mt-2">{formErrors.message}</p>
@@ -168,7 +168,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#a0b59f] text-white py-3 rounded-lg hover:bg-[#8b9c7d] transition-all"
+            className="w-full bg-[#a0b59f] text-white py-3 rounded-lg hover:bg-[#4ebc78] transition-all"
           >
             Send Message
           </button>
@@ -181,7 +181,7 @@ const Contact = () => {
               href="https://docs.google.com/forms/d/1ViFzPb4L957BYdoCm0dHdp0tjYTPS8RoQMMqUN0hvVQ/edit"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#a0b59f] text-white py-2 px-4 rounded-lg hover:bg-[#8b9c7d] transition-all"
+              className="bg-[#a0b59f] text-white py-2 px-4 rounded-lg hover:bg-[#4ebc78] transition-all"
             >
               Join as a Volunteer
             </a>
@@ -189,7 +189,7 @@ const Contact = () => {
               href="https://docs.google.com/forms/d/186kKYW2FaQYMWo-pm_i4OkTg1Mi1QOyvRtfH3cQDKek/edit"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#a0b59f] text-white py-2 px-4 rounded-lg hover:bg-[#8b9c7d] transition-all"
+              className="bg-[#4ebc78] text-white py-2 px-4 rounded-lg hover:bg-[#4ebc78] transition-all"
             >
               Join as a Partner
             </a>
@@ -243,14 +243,14 @@ const Contact = () => {
               <Tooltip title="Email Address">
                 <Box sx={{ display: "flex", alignItems: "center" }}>
                   <MailOutlineIcon
-                    sx={{ fontSize: 30, color: "#a0b59f", mr: 2 }}
+                    sx={{ fontSize: 30, color: "#4ebc78", mr: 2 }}
                   />
                   <Typography>
                     <strong>Email:</strong>{" "}
                     <Link
                       href="mailto:info@bezrah.org"
                       underline="hover"
-                      sx={{ color: "#a0b59f", "&:hover": { color: "#8b9c7d" } }}
+                      sx={{ color: "#4ebc78", "&:hover": { color: "#4ebc78" } }}
                     >
                       info@bezrah.org
                     </Link>
@@ -268,7 +268,7 @@ const Contact = () => {
               <Tooltip title="Phone Number">
                 <Box sx={{ display: "flex", alignItems: "center" }}>
                   <PhoneOutlinedIcon
-                    sx={{ fontSize: 30, color: "#a0b59f", mr: 2 }}
+                    sx={{ fontSize: 30, color: "#4ebc78", mr: 2 }}
                   />
                   <Typography>
                     <strong>Phone:</strong> +20 01501549813
@@ -286,7 +286,7 @@ const Contact = () => {
               <Tooltip title="Our Location">
                 <Box sx={{ display: "flex", alignItems: "center" }}>
                   <LocationOnOutlinedIcon
-                    sx={{ fontSize: 30, color: "#a0b59f", mr: 2 }}
+                    sx={{ fontSize: 30, color: "#4ebc78", mr: 2 }}
                   />
                   <Typography>
                     <strong>Address:</strong> Benha , Egypt
