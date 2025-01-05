@@ -37,7 +37,7 @@ const Header = () => {
       <AppBar
         position="fixed"
         sx={{
-          background: "linear-gradient(to right, #013820, #013820)",
+          background: "linear-gradient(to right, #013820, #4ebc78)",
           color: "white",
           zIndex: (theme) => theme.zIndex.drawer + 1,
         }}
