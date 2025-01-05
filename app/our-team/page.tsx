@@ -73,7 +73,7 @@ const page = () => {
                 </p>
                 <a
                   href={`mailto:${founder.contact}`}
-                  className="text-[#4ebc78] hover:text-[#013820]"
+                  className="text-[#013820] hover:text-[#013820]"
                 >
                   <strong>Contact:</strong> {founder.contact}
                 </a>
